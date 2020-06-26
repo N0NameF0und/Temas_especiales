@@ -1,0 +1,10 @@
+Fixes
+
+Notebook Jupiter red variables
+This is because the indentation is screwed up. For consistency the codemirror parser will make a red line 
+if it's not indented 4 spaces (or if it's indented with tabs, depending on codemirror version).
+Has to be indentation well done
+
+The indentation is key if is wrong the function will be messed up 
+
+In Python whitespace is significant. The function ends when the indentation becomes smaller (less).
